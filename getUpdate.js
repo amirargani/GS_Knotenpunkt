@@ -1,4 +1,4 @@
-var sheetgoogle = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1jqV2Yvja62qxJr9bzSWGVkOW-XH91CtUztSqPzIQWUo/edit");
+var sheetgoogle = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/...../edit");
 let QuarterMonth = (new Date().getMonth() + 1);
 if (Quarter >= 1 && Quarter <= 3) {
     var sheet = sheetgoogle.getSheetByName("1.Quartal " + new Date().getFullYear());
